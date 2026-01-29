@@ -1,0 +1,15 @@
+# 忽略 Python 虛擬環境
+venv/
+__pycache__/
+*.pyc
+
+# 忽略環境變數（保護你的 API Key）
+.env
+
+# 忽略資料與模型（檔案太大，且不屬於代碼）
+data/
+models/
+*.db
+
+# 忽略系統檔案
+.DS_Store
